@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cp -f hello.ko /home/yaroslav/repos/busybox/_install
+cd /home/yaroslav/repos/busybox/
+./REPACK
+./RUN
+cd /home/yaroslav/Documents/test2/
